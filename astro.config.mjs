@@ -7,6 +7,6 @@ import UnoCSS from 'unocss/astro'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://kixlt.github.io',
-  base: '/astro_blog',
+  base: '/astro',
   integrations: [mdx(), sitemap(), UnoCSS(), vue()],
 })
